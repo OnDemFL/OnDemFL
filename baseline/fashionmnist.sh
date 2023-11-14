@@ -26,8 +26,3 @@ do
         --wandb=True\
         --wandb_project_name=on-demand-fl
 done
-
-
-# --dm_criterion=MSELoss\
-# --dm_criterion=MultiLabelSoftMarginLoss\
-#    --dm_criterion=KLDivLoss\
