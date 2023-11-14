@@ -3,7 +3,7 @@ device=0
 alpha=0.1
 seed=42
 
-# for alpha in 1.0 #1.0 #0.5 1
+# for alpha in 0.1 0.5 1.0 
 # do
 python3 main.py\
     --dataset_name=cifar100\
@@ -26,8 +26,3 @@ python3 main.py\
     --init_round=100\
     --wandb_project_name=on-demand-fl
 # done
-
-
-# --dm_criterion=MSELoss\
-# --dm_criterion=MultiLabelSoftMarginLoss\
-#    --dm_criterion=KLDivLoss\
