@@ -1,4 +1,4 @@
-# [AISTATS 2024] On-Demand Federated Learning
+# On-Demand Federated Learning
 This repository provides an implementation of the **On-Demand Federated Learning for Arbitrary Target Class Distributions**.
 This code is tested in [pytorch docker image](nvcr.io/nvidia/pytorch:21.12-py3) with RTXA6000 and GeForce3090.
 
